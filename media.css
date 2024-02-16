@@ -1,0 +1,53 @@
+/* 768PX */
+@media(min-width: 768px){
+.separator{
+    width: 50%;
+}
+}
+/* 500PX */
+@media(max-width: 500px){
+    #comments-container{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .comment{
+        width: 100%;
+    }
+}
+/* 1180PX */
+@media(min-width: 1180px){
+    #comments-container{
+        width: 50%;
+    }
+    .comment{
+        width: 50%;
+    }
+    .story{
+        width: 50%;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 150px;
+    }
+}
+/* 1470PX */
+@media(max-width: 1475px){
+.for-you-section{
+    width: 25%;
+}
+}
+/* 1390PX */
+@media(max-width: 1390px){
+    .for-you-section{
+       display: none;
+    }
+}
+/* 1200PX */
+@media(max-width: 1200px){
+    .menu-section-left{
+        display: none;
+    }
+}
